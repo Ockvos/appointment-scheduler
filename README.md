@@ -1,14 +1,33 @@
 # appointment-scheduler
 
-This application serves as an appointment scheduling and reporting service usable by a company that has clients and contacts. All needed functionality to create appointments is provided, this includes the ability create new customers, and create appointments for those customers. In addition, the user can also view detailed reports of the appointments and customers. 
+  This application serves as an appointment scheduling and reporting service usable by a company that has clients and contacts. All needed functionality to create appointments is provided, this includes the ability create new customers, and create appointments for those customers. In addition, the user can also view detailed reports of the appointments and customers. 
 
-Below are some sample screenshots:
+Below are sample screenshots:
+
 
 Login screen: <br></br>
 ![Login screen](/images/Login.png)
 
 Main menu screen: <br></br>
 ![Main menu screen](/images/MainMenu.png)
+
+Customers screen: <br></br>
+![Customers screen](/images/Customers.png)
+
+Adding new customer: <br></br>
+![Add new customer screen](/images/AddCustomer.png)
+
+Appointments screen: <br></br>
+![Appointments screen](/images/Appointments.png)
+
+Creating a new appointment: <br></br>
+![Add new appointment screen](/images/AddAppointment.png)
+
+Reports screen: <br></br>
+![Reporting screen](/images/Reporting.png)
+
+Report grouping customers by country: <br></br>
+![Report based on country](/images/CountryReport.png)
 
 Features:
 * Ability to login using user ID and password.
@@ -22,9 +41,10 @@ Features:
 *	Ability to add, modify, and delete customer appointment.
 *	Can generate various reports to help users better understand customers and appointments currently stored.
 
+
 The following technology is utilized: <br></br>
-- Java: Java SE 17.0.1
-- JavaFX: JavaFX-SDK-17.0.1
-- MySQL Driver:  mysql-connector-java-8.1.23
-- DBMS: MySQL Workbench 8.0 CE
+* Java: Java SE 17.0.1
+* JavaFX: JavaFX-SDK-17.0.1
+* MySQL Driver:  mysql-connector-java-8.1.23
+* DBMS: MySQL Workbench 8.0 CE
 
