@@ -40,6 +40,7 @@ Features:
 *	Ability to add, modify, and delete customer record.
 *	Ability to add, modify, and delete customer appointment.
 *	Can generate various reports to help users better understand customers and appointments currently stored.
+<br></br>
 
 
 The following technology is utilized:
