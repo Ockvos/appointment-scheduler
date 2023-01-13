@@ -7,7 +7,7 @@ Below are some sample screenshots:
 Login screen: <br></br>
 ![Login screen](/images/Login.png)
 
-Main menu screen:
+Main menu screen: <br></br>
 ![Main menu screen](/images/MainMenu.png)
 
 Features:
@@ -22,9 +22,9 @@ Features:
 *	Ability to add, modify, and delete customer appointment.
 *	Can generate various reports to help users better understand customers and appointments currently stored.
 
-The following technology is utilized:
-Java: Java SE 17.0.1
-JavaFX: JavaFX-SDK-17.0.1
-MySQL Driver:  mysql-connector-java-8.1.23
-DBMS: MySQL Workbench 8.0 CE
+The following technology is utilized: <br></br>
+- Java: Java SE 17.0.1
+- JavaFX: JavaFX-SDK-17.0.1
+- MySQL Driver:  mysql-connector-java-8.1.23
+- DBMS: MySQL Workbench 8.0 CE
 
