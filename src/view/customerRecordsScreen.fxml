@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="680.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerRecordsScreen">
+    <children>
+        <TableView fx:id="recordsTableView" layoutX="32.0" layoutY="91.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onRowSelected" prefHeight="200.0" prefWidth="615.0">
+            <columns>
+                <TableColumn fx:id="idCol" prefWidth="34.19997787475586" text="ID" />
+                <TableColumn fx:id="postalCodeCol" prefWidth="72.60000610351562" text="Postal Code" />
+                <TableColumn fx:id="phoneNumberCol" prefWidth="102.20001220703125" text="Phone Number" />
+                <TableColumn fx:id="customerNameCol" prefWidth="143.60003662109375" text="Customer Name" />
+                <TableColumn fx:id="customerAddressCol" minWidth="0.0" prefWidth="161.19992065429688" text="Customer Address" />
+            <TableColumn fx:id="customerDivisionCol" prefWidth="120.0" text="Division" />
+            </columns>
+        </TableView>
+        <Label fx:id="customerRecordsLabel" layoutX="35.0" layoutY="14.0" prefHeight="27.0" prefWidth="176.0" text="Customer Records">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font></Label>
+        <Button fx:id="exitButton" layoutX="634.0" layoutY="360.0" mnemonicParsing="false" onAction="#onExitButton" text="Exit" />
+        <Button fx:id="backButton" layoutX="586.0" layoutY="360.0" mnemonicParsing="false" onAction="#onBackButton" text="Back" />
+        <Button fx:id="addRecord" layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#onAddRecordButton" text="Add Record" />
+        <Button fx:id="deleteButton" disable="true" layoutX="209.0" layoutY="360.0" mnemonicParsing="false" onAction="#onDeleteRecord" text="Delete Record" />
+        <Button fx:id="updateRecordButton" disable="true" layoutX="102.0" layoutY="360.0" mnemonicParsing="false" onAction="#onUpdateRecordButton" text="Update Record" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="900.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AppointmentsScreen">
+   <children>
+      <TableView fx:id="appointmentsTableView" layoutX="11.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onRowSelected" prefHeight="200.0" prefWidth="881.0">
+        <columns>
+            <TableColumn fx:id="appointmentIdCol" prefWidth="111.39999389648438" text="Appointment ID" />
+          <TableColumn fx:id="startDateCol" prefWidth="94.00000309944153" text="Start" />
+          <TableColumn fx:id="endDateCol" prefWidth="98.80001831054688" text="End" />
+            <TableColumn fx:id="userIdCol" prefWidth="80.39997863769531" text="User ID" />
+            <TableColumn fx:id="customerIdCol" prefWidth="94.19998168945312" text="Customer ID" />
+            <TableColumn fx:id="titleCol" prefWidth="68.79998779296875" text="Title" />
+            <TableColumn fx:id="descriptionCol" maxWidth="96.4000244140625" prefWidth="96.4000244140625" text="Description" />
+            <TableColumn fx:id="locationCol" prefWidth="89.4000244140625" resizable="false" text="Location" />
+              <TableColumn fx:id="contactCol" prefWidth="97.79998779296875" text="Contact" />
+            <TableColumn fx:id="typeCol" prefWidth="84.4000244140625" text="Type" />
+        </columns>
+      </TableView>
+      <Label fx:id="appointmentsLabel" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="285.0" text="Appointments">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Button fx:id="exitButton" layoutX="850.0" layoutY="360.0" mnemonicParsing="false" onAction="#onExitButton" text="Exit" />
+      <ComboBox fx:id="optionsComboBox" layoutX="14.0" layoutY="48.0" onAction="#onOptionsComboBox" prefHeight="26.0" prefWidth="226.0" />
+      <Button fx:id="backButton" layoutX="797.0" layoutY="360.0" mnemonicParsing="false" onAction="#onBackButton" text="Back" />
+      <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#onAddAppointmentButton" text="Add Appointment" />
+      <Button fx:id="deleteButton" disable="true" layoutX="275.0" layoutY="360.0" mnemonicParsing="false" onAction="#onDeleteAppointment" text="Delete Appointment" />
+      <Button fx:id="updateAppointmentButton" disable="true" layoutX="137.0" layoutY="360.0" mnemonicParsing="false" onAction="#onUpdateAppointment" text="Update Appointment" />
+      <Label fx:id="infoLabel" layoutX="14.0" layoutY="300.0" text="Hover to view start date" />
+      <Label fx:id="appointmentRangeLabel" layoutX="252.0" layoutY="53.0" text="Currently showing all appointments" />
+   </children>
+</AnchorPane>

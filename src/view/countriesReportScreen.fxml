@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="500.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CountriesReportScreen">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e0f6ff" height="65.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+        <ImageView fx:id="profilePicture" fitHeight="32.0" fitWidth="32.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="closeButton" layoutX="227.0" layoutY="290.0" mnemonicParsing="false" onAction="#onCloseButton" text="Close">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Label layoutX="163.0" layoutY="2.0" text="Customers By Country">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="237.0" layoutY="52.0" />
+        <TableView fx:id="recordsTableView" layoutX="10.0" layoutY="96.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="182.0" prefWidth="479.0">
+            <columns>
+                <TableColumn fx:id="idCol" prefWidth="51.0" text="ID" />
+                <TableColumn fx:id="customerNameCol" prefWidth="167.0" text="Customer Name" />
+                <TableColumn fx:id="postalCodeCol" prefWidth="88.0" text="Postal Code" />
+                <TableColumn fx:id="customerAddressCol" prefWidth="200.0" text="Customer Address" />
+            </columns>
+        </TableView>
+        <Label layoutX="14.0" layoutY="38.0" text="Country Name: ">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="countryNameLabel" layoutX="116.0" layoutY="38.0" text="X">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+      <Label layoutX="14.0" layoutY="60.0" text="Amount Customers in Country:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="customerCountLabel" layoutX="223.0" layoutY="60.0" text="X">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
