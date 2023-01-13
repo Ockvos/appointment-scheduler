@@ -1,4 +1,4 @@
-# appointment-scheduler
+# Appointment Scheduler
 
   This application serves as an appointment scheduling and reporting service usable by a company that has clients and contacts. All needed functionality to create appointments is provided, this includes the ability create new customers, and create appointments for those customers. In addition, the user can also view detailed reports of the appointments and customers. 
 
