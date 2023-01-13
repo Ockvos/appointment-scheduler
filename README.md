@@ -6,28 +6,28 @@ Below are sample screenshots:
 
 
 Login screen: <br></br>
-![Login screen](/images/Login.png)
+![Login screen](/images/Login.png) <br></br>
 
 Main menu screen: <br></br>
-![Main menu screen](/images/MainMenu.png)
+![Main menu screen](/images/MainMenu.png) <br></br>
 
 Customers screen: <br></br>
-![Customers screen](/images/Customers.png)
+![Customers screen](/images/Customers.png) <br></br>
 
 Adding new customer: <br></br>
-![Add new customer screen](/images/AddCustomer.png)
+![Add new customer screen](/images/AddCustomer.png) <br></br>
 
 Appointments screen: <br></br>
-![Appointments screen](/images/Appointments.png)
+![Appointments screen](/images/Appointments.png) <br></br>
 
 Creating a new appointment: <br></br>
-![Add new appointment screen](/images/AddAppointment.png)
+![Add new appointment screen](/images/AddAppointment.png) <br></br>
 
 Reports screen: <br></br>
-![Reporting screen](/images/Reporting.png)
+![Reporting screen](/images/Reporting.png) <br></br>
 
 Report grouping customers by country: <br></br>
-![Report based on country](/images/CountryReport.png)
+![Report based on country](/images/CountryReport.png) <br></br>
 
 Features:
 * Ability to login using user ID and password.
@@ -42,7 +42,7 @@ Features:
 *	Can generate various reports to help users better understand customers and appointments currently stored.
 
 
-The following technology is utilized: <br></br>
+The following technology is utilized:
 * Java: Java SE 17.0.1
 * JavaFX: JavaFX-SDK-17.0.1
 * MySQL Driver:  mysql-connector-java-8.1.23
