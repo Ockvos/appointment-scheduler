@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainMenuScreen">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e0f6ff" height="150.0" layoutY="54.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e0f6ff" height="150.0" layoutX="300.0" layoutY="54.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Button layoutX="214.0" layoutY="225.0" mnemonicParsing="false" onAction="#onAppointmentsButton" text="View/Schedule Appointments" />
+      <Button layoutX="230.0" layoutY="258.0" mnemonicParsing="false" onAction="#onRecordsButton" text="View/Modify Records" />
+      <Button layoutX="240.0" layoutY="289.0" mnemonicParsing="false" onAction="#onReportsScreen" text="Generate Reports" />
+      <Button layoutX="543.0" layoutY="361.0" mnemonicParsing="false" onAction="#onExitButton" text="Exit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="timeZoneLabel" layoutX="14.0" layoutY="182.0" text="Time Zone: X">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="currentUserLabel" layoutX="14.0" layoutY="142.0" text="Current User: X ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="languageLabel" layoutX="14.0" layoutY="162.0" text="Language: X">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#onPreferencesButton" text="Preferences">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="profilePicture" fitHeight="32.0" fitWidth="32.0" layoutX="18.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="230.0" layoutY="14.0" text="User Dashboard">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Line endX="502.0" endY="-3.814697265625E-6" layoutX="98.0" layoutY="46.0" startX="-100.0" />
+      <Label layoutX="94.0" layoutY="61.0" text="User Information">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="61.0" text="Upcoming Appointment">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="142.0" text="ID:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="182.0" text="Date:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="162.0" text="Time:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="alertSymbol" fitHeight="32.0" fitWidth="32.0" layoutX="309.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="appointmentAlertLabel" layoutX="352.0" layoutY="93.0" text="No appointments within next X mins">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lastUpdateLabel" layoutX="422.0" layoutY="109.0" prefHeight="18.0" prefWidth="145.0" />
+      <Label layoutX="352.0" layoutY="109.0" text="Last Update: " />
+      <Label fx:id="appointmentIdLabel" layoutX="330.0" layoutY="141.0" prefHeight="18.0" prefWidth="145.0" />
+      <Label fx:id="appointmentDateLabel" layoutX="343.0" layoutY="181.0" prefHeight="18.0" prefWidth="145.0" />
+      <Label fx:id="appointmentTimeLabel" layoutX="345.0" layoutY="161.0" prefHeight="18.0" prefWidth="145.0" />
+   </children>
+</AnchorPane>
